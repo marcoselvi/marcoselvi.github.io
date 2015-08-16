@@ -117,8 +117,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(800px - (30px));
+  max-width: calc(800px - (30px));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
@@ -219,28 +219,6 @@ pre {
       padding-bottom: 10px;
       color: #ff4500;
       border-bottom: 2px solid #ff4500; }
-  @media screen and (max-width: 600px) {
-    .site-header {
-      position: absolute;
-      top: 9px;
-      right: 30px;
-      background-color: #1c2122;
-      border: 1px solid #e8e8e8;
-      border-radius: 5px;
-      text-align: right; }
-      .site-header .menu-icon {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center; }
-        .site-header .menu-icon > svg {
-          width: 18px;
-          height: 15px; }
-          .site-header .menu-icon > svg path {
-            fill: #424242; } }
 
 /**
  * Site footer
@@ -355,7 +333,8 @@ pre {
 
 .post-box {
   position: relative;
-  width: 80%;
+  width: -webkit-calc(80% - (30px));
+  width: calc(80% - (30px));
   float: left;
   clear: right; }
 
@@ -376,14 +355,14 @@ pre {
 .category-box {
   position: relative;
   width: 20%;
-  float: right; }
+  float: right;
+  padding-right: 30px; }
 
 /**
  * Content summary
  */
 .content-summary {
-  padding-left: 24px;
-  color: #828282; }
+  padding-left: 24px; }
 
 /*
  * Monokai code highlighting
