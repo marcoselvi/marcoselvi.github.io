@@ -6,8 +6,8 @@
 </description>
     <link>http://marcoselvi.github.io/</link>
     <atom:link href="http://marcoselvi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Aug 2015 03:03:28 +0100</pubDate>
-    <lastBuildDate>Sun, 16 Aug 2015 03:03:28 +0100</lastBuildDate>
+    <pubDate>Sun, 16 Aug 2015 13:37:34 +0100</pubDate>
+    <lastBuildDate>Sun, 16 Aug 2015 13:37:34 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -45,11 +45,11 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 01 Jul 2015 23:47:00 +0100</pubDate>
-        <link>http://marcoselvi.github.io/blog/important/2015/07/01/to-do-list/</link>
-        <guid isPermaLink="true">http://marcoselvi.github.io/blog/important/2015/07/01/to-do-list/</guid>
+        <link>http://marcoselvi.github.io/blog_post/important/2015/07/01/to-do-list/</link>
+        <guid isPermaLink="true">http://marcoselvi.github.io/blog_post/important/2015/07/01/to-do-list/</guid>
         
         
-        <category>blog</category>
+        <category>blog_post</category>
         
         <category>important</category>
         
@@ -57,16 +57,31 @@
     
       <item>
         <title>My first post!</title>
-        <description>&lt;p&gt;So this is the first post I’m writing here. It’s just for testing at the moment, and to see how all the setups work.&lt;/p&gt;
+        <description>&lt;p&gt;So this is the first post I’m writing here. It’s just for testing at the moment, and to see how all the setups work.
+I like the default theme, but it does need quite a lot of tweaking, so I suppose that’s!
+Now I really want to figure out how to add images like this one:&lt;/p&gt;
 
-&lt;p&gt;I like the default theme, but it does need quite a lot of tweaking, so I suppose that’s what I’ll be doing next!&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.trin.cam.ac.uk&quot;&gt;&lt;img width=&quot;50%&quot; align=&quot;right&quot; style=&quot;padding: 0px 16px&quot; src=&quot;/media/images/trinity.jpg&quot; alt=&quot;&quot; title=&quot;Beautiful Trinity&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And this fixes image alignment too!&lt;/p&gt;
+
+&lt;p&gt;Now&lt;br /&gt;
+I&lt;br /&gt;
+want&lt;br /&gt;
+to test line breaks!&lt;/p&gt;
+
+&lt;p&gt;And new paragraphs!&lt;/p&gt;
+
+&lt;p&gt;So now if I write enough to end up under the image, that should be sorted out automatically right? I mean, I just keep writing and keep writing until eventually… I end up under the image and the text should wrap around nicely right?
+Oh come on, how many lines do you need before you actually end up under the fucking image? Theeeere you go!&lt;/p&gt;
+
 </description>
         <pubDate>Wed, 01 Jul 2015 00:00:00 +0100</pubDate>
-        <link>http://marcoselvi.github.io/blog/personal/update/2015/07/01/my-first-post/</link>
-        <guid isPermaLink="true">http://marcoselvi.github.io/blog/personal/update/2015/07/01/my-first-post/</guid>
+        <link>http://marcoselvi.github.io/blog_post/personal/update/2015/07/01/my-first-post/</link>
+        <guid isPermaLink="true">http://marcoselvi.github.io/blog_post/personal/update/2015/07/01/my-first-post/</guid>
         
         
-        <category>blog</category>
+        <category>blog_post</category>
         
         <category>personal</category>
         
@@ -92,11 +107,11 @@
 
 </description>
         <pubDate>Thu, 25 Jun 2015 17:12:02 +0100</pubDate>
-        <link>http://marcoselvi.github.io/blog/jekyll/update/2015/06/25/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://marcoselvi.github.io/blog/jekyll/update/2015/06/25/welcome-to-jekyll/</guid>
+        <link>http://marcoselvi.github.io/blog_post/jekyll/update/2015/06/25/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://marcoselvi.github.io/blog_post/jekyll/update/2015/06/25/welcome-to-jekyll/</guid>
         
         
-        <category>blog</category>
+        <category>blog_post</category>
         
         <category>jekyll</category>
         

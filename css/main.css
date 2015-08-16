@@ -282,9 +282,10 @@ pre {
 
 .post-list {
   margin-left: 0;
-  list-style: none; }
+  list-style-type: none; }
   .post-list > li {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    overflow: auto; }
 
 .post-meta {
   font-size: 14px;
