@@ -1,0 +1,39 @@
+<script>
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 1){  
+            $('header').addClass("sticky");
+        }
+        else{
+            $('header').removeClass("sticky");
+        }
+    });
+  
+</script>
+
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <div class="site-title">
+      <a {% if page.url == '/' %} class="current page-link" {% else %} class="page-link" {% endif %} href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </div>
+
+
+    {% assign pages = site.pages | sort:"position" %}
+    <nav class="site-nav">
+      <ul class="content">
+        {% for node in pages %}
+          {% if node.title %}
+            <li>
+              <a class="page-link" href="{{ node.url | prepend: site.baseurl }}">
+                <div {% if node.url == page.url %} class="current" {% endif %}>{{ node.title }}</div>
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+
+  </div>
+
+</header>
