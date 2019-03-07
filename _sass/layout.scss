@@ -1,0 +1,327 @@
+// /**
+//  * Site header
+//  */
+// .site-header {
+
+//     padding-top: 20px;
+//     background: $background-color;
+//     color: $text-color;
+
+//     // Positioning context for the mobile navigation icon
+//     position: relative;
+
+//     .page-link {
+//         text-decoration: none;
+//         position: relative;
+
+//         color: $text-color;
+//         -o-transition: color .5s;
+//         -ms-transition: color .5s;
+//         -moz-transition: color .5s;
+//         -webkit-transition: color .5s;
+//         transition: color .5s;
+// //        line-height: $base-line-height;
+
+//         // Gaps between nav items, but not on the first one
+//         &:not(:first-child) {
+//             margin-left: 20px;
+//         }
+
+//         &:hover {
+//             color: $red-color;
+//         }
+//     }
+
+//     .site-title {
+//         font-size: 26px;
+//         letter-spacing: -1px;
+//         float: left;
+//         padding: 0px;
+//         margin: 0px;
+
+
+//         .current {
+//             color: $red-color;
+//         }
+//     }
+
+//     .site-nav {
+//         float: right;
+//     //    line-height: 56px;
+
+//     //    .menu-icon {
+//     //        display: none;
+//     //    }
+//         ul {
+//             margin-top: 0px;
+//             padding-left: 0px;
+//             padding-top: 0px;
+//         }
+
+//         li {
+//             position: relative;
+//             padding: 0px;
+//             margin-left: -3px;
+//             margin-right: -2px;
+//             letter-spacing: 0px;
+//             display: inline-block;
+//         }
+//         li:after {
+//             content: '';
+//             display: block;
+//             color: $red-color;
+//             margin-bottom: auto;
+//             margin-top: -2px;
+//             margin-left: auto;
+//             margin-right: auto;
+//             height: 2px;
+//             width: 0px;
+//             background: transparent;
+//             transition: width .5s ease, background-color .5s ease;
+//         }
+//         li:hover:after {
+//             width: 100%;
+//             background: $red-color;
+//         }
+
+//         div {
+//             position: relative;
+//             padding: 10px 30px 12px 30px;
+//         }
+//         div.current {
+//             padding-bottom: 10px;
+//             color: $red-color;
+//             border-bottom: 2px solid $red-color;
+//         }
+//     }
+
+//     @include media-query($on-palm) {
+//         position: absolute;
+//         top: 9px;
+//         right: 30px;
+//         background-color: $background-color;
+//         border: 1px solid $grey-color-light;
+//         border-radius: 5px;
+//         text-align: right;
+
+//         .menu-icon {
+//             display: block;
+//             float: right;
+//             width: 36px;
+//             height: 26px;
+//             line-height: 0;
+//             padding-top: 10px;
+//             text-align: center;
+
+//             > svg {
+//                 width: 18px;
+//                 height: 15px;
+
+//                 path {
+//                     fill: $grey-color-dark;
+//                 }
+//             }
+//         }
+
+// //        .trigger {
+// //            clear: both;
+// //            display: none;
+// //        }
+// //
+// //        &:hover .trigger {
+// //            display: block;
+// //            padding-bottom: 5px;
+// //        }
+// //
+// //        .page-link {
+// //            display: block;
+// //            padding: 5px 10px;
+// //        }
+//     }
+// }
+
+
+
+// *
+//  * Site footer
+
+// .site-footer {
+//     border-top: 1px solid $grey-color-light;
+//     padding: $spacing-unit 0;
+
+//     .footer-heading {
+//         font-size: 18px;
+//         margin-bottom: $spacing-unit / 2;
+//     }
+
+//     .contact-list,
+//     .social-media-list {
+//         list-style: none;
+//         margin-left: 0;
+//     }
+
+//     .footer-col-wrapper {
+//         font-size: 15px;
+//         color: $grey-color;
+//         margin-left: -$spacing-unit / 2;
+//         @extend %clearfix;
+//     }
+
+//     .footer-col {
+//         float: left;
+//         margin-bottom: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+
+//     .footer-col-1 {
+//         width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+//         width:         calc(35% - (#{$spacing-unit} / 2));
+//     }
+
+//     .footer-col-2 {
+//         width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+//         width:         calc(20% - (#{$spacing-unit} / 2));
+//     }
+
+//     .footer-col-3 {
+//         width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+//         width:         calc(45% - (#{$spacing-unit} / 2));
+//     }
+
+//     @include media-query($on-laptop) {
+//         .footer-col-1,
+//         .footer-col-2 {
+//             width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+//             width:         calc(50% - (#{$spacing-unit} / 2));
+//         }
+
+//         .footer-col-3 {
+//             width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+//             width:         calc(100% - (#{$spacing-unit} / 2));
+//         }
+//     }
+
+//     @include media-query($on-palm) {
+//         .footer-col {
+//             float: none;
+//             width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+//             width:         calc(100% - (#{$spacing-unit} / 2));
+//         }
+//     }
+// }
+
+
+
+// /**
+//  * Page content
+//  */
+// .page-content {
+//     padding: $spacing-unit 0;
+// }
+
+// .page-heading {
+//     font-size: 20px;
+// }
+
+// .post-list {
+//     margin-left: 0;
+//     list-style: none;
+
+//     > li {
+//         margin-bottom: $spacing-unit;
+//     }
+// }
+
+// .post-meta {
+//     font-size: $small-font-size;
+//     color: $grey-color;
+// }
+
+// .post-link {
+//     display: block;
+//     font-size: 24px;
+// }
+
+
+
+// /**
+//  * Posts
+//  */
+// .post-header {
+//     margin-bottom: $spacing-unit;
+// }
+
+// .post-title {
+//     font-size: 38px;
+//     letter-spacing: -1px;
+//     line-height: 1;
+
+//     @include media-query($on-laptop) {
+//         font-size: 36px;
+//     }
+// }
+
+// .post-content {
+//     margin-bottom: $spacing-unit;
+
+//     h2 {
+//         font-size: 32px;
+
+//         @include media-query($on-laptop) {
+//             font-size: 28px;
+//         }
+//     }
+
+//     h3 {
+//         font-size: 26px;
+
+//         @include media-query($on-laptop) {
+//             font-size: 22px;
+//         }
+//     }
+
+//     h4 {
+//         font-size: 20px;
+
+//         @include media-query($on-laptop) {
+//             font-size: 18px;
+//         }
+//     }
+// }
+
+// .post-tags {
+//     margin-top: 0px;
+//     color: $grey-color;
+//     font-size: $small-font-size;
+// }
+
+// .post-box {
+//     position: relative;
+//     width: 80%;
+//     float: left;
+
+//     clear: right;
+// }
+
+// /**
+//  * Categories
+//  */
+// .category-title {
+//     font-size: 38px;
+//     letter-spacing: -1px;
+//     line-height: 1;
+
+//     @include media-query($on-laptop) {
+//         font-size: 36px;
+//     }
+// }
+
+// .category-list {
+//     list-style-type: none;
+// }
+
+// .category-box {
+//     position: relative;
+//     width: 20%;
+//     float: right;
+// }
