@@ -1,7 +1,15 @@
-- name: Home
-  link: /
-- name: About
-  link: /about
-- name: Blog
-  link: /blog
+links:
+  - name: Home
+    link: /
+  - name: About
+    link: /about
+  - name: Blog
+    link: /blog
 
+units:
+  - image: /assets/images/florian-klauer-14840-unsplash.jpg
+  - image: /assets/images/franck-v-1173486-unsplash.jpg
+  - image: /assets/images/franz-harvin-aceituna-450127-unsplash.jpg
+  - image: /assets/images/mike-dorner-173502-unsplash.jpg
+  - image: /assets/images/patrick-hendry-373352-unsplash.jpg
+  - image: /assets/images/saketh-garuda-409301-unsplash.jpg

@@ -4,23 +4,10 @@ title: Home
 ---
 
 <div class="row">
-  <div class="unit">
-    <img src="/assets/images/florian-klauer-14840-unsplash.jpg">
-  </div>
-  <div class="unit">
-    <img src="/assets/images/franck-v-1173486-unsplash.jpg">
-  </div>
-  <div class="unit">
-    <img src="/assets/images/franz-harvin-aceituna-450127-unsplash.jpg">
-  </div>
-  <div class="unit">
-    <img src="/assets/images/mike-dorner-173502-unsplash.jpg">
-  </div>
-  <div class="unit">
-    <img src="/assets/images/patrick-hendry-373352-unsplash.jpg">
-  </div>
-  <div class="unit">
-    <img src="/assets/images/saketh-garuda-409301-unsplash.jpg">
-  </div>
+  {% for unit in site.data.navigation.units %}
+    <div class="unit">
+      <img src="{{ unit.image }}">
+    </div>
+  {% endfor %}
 </div>
 
