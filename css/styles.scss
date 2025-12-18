@@ -1,0 +1,102 @@
+---
+---
+@charset "utf-8";
+
+$base-font-family: Helvetica, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$grey-color:       #828282;
+// $red-color:        #ff4500;
+// $grey-color-light: lighten($grey-color, 40%);
+// $grey-color-dark:  darken($grey-color, 25%);
+
+$text-color:       $grey-color;
+$background-color: #1c2122;
+$brand-color:      #00bfff;
+
+// Width of the content area
+$content-width:    600px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// body, h1, h2, h3, h4, h5, h6,
+// p, blockquote, pre, hr,
+// dl, dd, ol, ul, figure {
+//     margin: 0;
+//     padding: 0;
+// }
+
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
+    max-width: $content-width; 
+    // text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24pt;
+    padding-right: 24pt;
+}
+
+.current {
+    color: green;
+}
+
+.unit {
+  flex: 33.33%;
+  max-width: 33.33%;
+  height: 200px;
+  overflow: hidden;
+  // padding: 0 4px;
+}
+
+// /**
+//  * Set `margin-bottom` to maintain vertical rhythm
+//  */
+// h1, h2, h3, h4, h5, h6,
+// p, blockquote, pre,
+// ul, ol, dl, figure,
+// %vertical-rhythm {
+//     margin-bottom: $spacing-unit / 2;
+// }
+
+.unit img {
+  // margin-top: 8px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two unit-layout instead of four units */
+@media screen and (max-width: $on-laptop) {
+  .unit {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two units stack on top of each other instead of next to each other */
+@media screen and (max-width: $on-palm) {
+  .unit {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
