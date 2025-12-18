@@ -2,29 +2,7 @@
 ---
 @charset "utf-8";
 
-@font-face {
-  font-family: "hack";
-  src: url("../assets/fonts/HackNerdFontMono-BoldItalic.ttf");
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: "hack";
-  src: url("../assets/fonts/HackNerdFontMono-Bold.ttf");
-  font-weight: bold;
-}
-@font-face {
-  font-family: "hack";
-  src: url("../assets/fonts/HackNerdFontMono-Regular.ttf");
-  font-style: normal;
-}
-@font-face {
-  font-family: "hack";
-  src: url("../assets/fonts/HackNerdFontMono-Italic.ttf");
-  font-style: italic;
-}
-
-$base-font-family: hack, normal;
+$base-font-family: Hack;
 $base-font-size:   14px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -67,6 +45,7 @@ $content-width:    700px;
 // }
 
 h1 {
+  font-family: $base-font-family;
   font-weight: bold;
 }
 
