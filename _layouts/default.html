@@ -5,7 +5,6 @@
   <title>{{ page.title }} · {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Elegant monospace font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
@@ -14,18 +13,23 @@
 </head>
 <body>
 
-  <header class="nav">
-    <a href="/" class="logo">{{ site.title }}</a>
-    <nav>
-      <a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
-      <a href="/about" class="{% if page.url == '/about/' %}active{% endif %}">About</a>
-      <a href="/contact" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a>
-    </nav>
-  </header>
+  <div class="container">
 
-  <main class="content">
-    {{ content }}
-  </main>
+    <header class="nav">
+      <a href="/" class="logo">{{ site.title }}</a>
+      <nav>
+        <a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+        <a href="/about" class="{% if page.url == '/about/' %}active{% endif %}">About</a>
+        <a href="/contact" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a>
+      </nav>
+    </header>
+
+    <main class="content">
+      {{ content }}
+    </main>
+
+  </div>
 
 </body>
 </html>
+
