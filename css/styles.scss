@@ -2,8 +2,30 @@
 ---
 @charset "utf-8";
 
-$base-font-family: Helvetica, sans-serif;
-$base-font-size:   16px;
+@font-face {
+	font-family: "hack";
+	src: url("../assets/fonts/HackNerdFontMono-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+	font-family: "hack";
+	src: url("../assets/fonts/HackNerdFontMono-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+	font-family: "hack";
+	src: url("../assets/fonts/HackNerdFontMono-Regular.ttf");
+  font-style: normal;
+}
+@font-face {
+	font-family: "hack";
+	src: url("../assets/fonts/HackNerdFontMono-Italic.ttf");
+  font-style: italic;
+}
+
+$base-font-family: hack, normal;
+$base-font-size:   14px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -19,10 +41,10 @@ $background-color: #1c2122;
 $brand-color:      #00bfff;
 
 // Width of the content area
-$content-width:    600px;
+$content-width:    700px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+// $on-palm:          600px;
+// $on-laptop:        800px;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -31,11 +53,11 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
+// @mixin media-query($device) {
+//     @media screen and (max-width: $device) {
+//         @content;
+//     }
+// }
 
 // body, h1, h2, h3, h4, h5, h6,
 // p, blockquote, pre, hr,
@@ -44,11 +66,15 @@ $on-laptop:        800px;
 //     padding: 0;
 // }
 
+h1 {
+    font-weight: bold;
+}
+
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
+    font-style: normal;
     max-width: $content-width; 
     // text-align: center;
     margin-left: auto;
@@ -86,17 +112,17 @@ body {
 }
 
 /* Responsive layout - makes a two unit-layout instead of four units */
-@media screen and (max-width: $on-laptop) {
-  .unit {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
+// @media screen and (max-width: $on-laptop) {
+//   .unit {
+//     flex: 50%;
+//     max-width: 50%;
+//   }
+// }
 
 /* Responsive layout - makes the two units stack on top of each other instead of next to each other */
-@media screen and (max-width: $on-palm) {
-  .unit {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
+// @media screen and (max-width: $on-palm) {
+//   .unit {
+//     flex: 100%;
+//     max-width: 100%;
+//   }
+// }
