@@ -3,24 +3,24 @@
 @charset "utf-8";
 
 @font-face {
-	font-family: "hack";
-	src: url("../assets/fonts/HackNerdFontMono-BoldItalic.ttf");
+  font-family: "hack";
+  src: url("../assets/fonts/HackNerdFontMono-BoldItalic.ttf");
   font-weight: bold;
   font-style: italic;
 }
 @font-face {
-	font-family: "hack";
-	src: url("../assets/fonts/HackNerdFontMono-Bold.ttf");
+  font-family: "hack";
+  src: url("../assets/fonts/HackNerdFontMono-Bold.ttf");
   font-weight: bold;
 }
 @font-face {
-	font-family: "hack";
-	src: url("../assets/fonts/HackNerdFontMono-Regular.ttf");
+  font-family: "hack";
+  src: url("../assets/fonts/HackNerdFontMono-Regular.ttf");
   font-style: normal;
 }
 @font-face {
-	font-family: "hack";
-	src: url("../assets/fonts/HackNerdFontMono-Italic.ttf");
+  font-family: "hack";
+  src: url("../assets/fonts/HackNerdFontMono-Italic.ttf");
   font-style: italic;
 }
 
@@ -67,24 +67,24 @@ $content-width:    700px;
 // }
 
 h1 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-style: normal;
-    max-width: $content-width; 
-    // text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 24pt;
-    padding-right: 24pt;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-style: normal;
+  max-width: $content-width; 
+  // text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24pt;
+  padding-right: 24pt;
 }
 
 .current {
-    color: green;
+  color: green;
 }
 
 .unit {
