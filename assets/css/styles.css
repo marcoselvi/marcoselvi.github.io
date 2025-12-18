@@ -13,27 +13,22 @@ body {
   font-family: "JetBrains Mono", monospace;
   background: var(--bg);
   color: var(--text);
-  line-height: 1.7;
-}
-
-/* Global container */
-.container {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 3rem 1.5rem 4rem;
+  line-height: 1.6;
 }
 
 /* Navigation */
 .nav {
+  max-width: 800px;
+  margin: 2rem auto 4rem;
+  padding: 0 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 4rem;
 }
 
 .nav nav {
   display: flex;
-  gap: 1.75rem;
+  gap: 1.5rem;
 }
 
 .nav a {
@@ -57,10 +52,14 @@ body {
   transition: transform 0.25s ease;
 }
 
-.nav a:hover::after,
-.nav a.active::after {
+.nav a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
+}
+
+/* Optional: active page underline */
+.nav a.active::after {
+  transform: scaleX(1);
 }
 
 .logo {
@@ -69,24 +68,17 @@ body {
 
 /* Content */
 .content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
   text-align: center;
 }
 
-/* Typography spacing */
 .content h1 {
-  margin-bottom: 1.25rem;
   font-weight: 500;
 }
 
 .content p {
-  margin: 0 auto 1.5rem;
-  max-width: 600px;
   color: var(--muted);
-}
-
-/* Improve markdown rhythm */
-.content h2,
-.content h3 {
-  margin-top: 3rem;
 }
 
