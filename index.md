@@ -8,7 +8,7 @@ title: Home
 I work in AI Research at [EIT](https://www.eit.org/), developing foundational models for science and healthcare.
 
 Previously I was at Meta and DeepMind developing RL training algorithms and environments for code modelling and generation.
-And before that I worked at Jukedeck building some of the earliest symbolic music generation ML models.
+And before that I worked at Jukedeck building some of the earliest ML models for symbolic music generation.
 
 ## Publications
 
