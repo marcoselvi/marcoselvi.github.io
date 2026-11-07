@@ -5,9 +5,10 @@ title: Home
 
 # Marco Selvi
 
-I work in AI Research at [EIT](https://www.eit.org/), developing foundational models for science and healthcare.
+I am a Member of Technical Staff at [Microsoft AI](https://microsoft.ai/), working on health-related projects, evaluations, pretraining and midtraining.
 
-Previously I was at Meta and DeepMind developing RL training algorithms and environments for code modelling and generation.
+Previously I was at [EIT](https://www.eit.org/), developing foundation models for science and healthcare.
+Before that I was at Meta and DeepMind developing RL training algorithms and environments for code modelling and generation.
 And before that I worked at Jukedeck building some of the earliest ML models for symbolic music generation.
 
 ## Publications
