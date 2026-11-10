@@ -20,7 +20,7 @@ And before that I worked at Jukedeck building some of the earliest ML models for
 
 ## Projects
 
-[localholst.uk](http://localholst.uk/)
+[localholst.uk](https://localholst.uk/)
 
 ## Contacts
 
